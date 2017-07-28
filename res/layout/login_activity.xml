@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#830303">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/abc_action_bar_content_inset_material">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:inputType="textEmailAddress"
+            android:id="@+id/editText_email"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+            android:hint="  Email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:inputType="textPassword"
+            android:id="@+id/editText_password"
+            android:layout_gravity="right"
+            android:hint="  Password"
+            android:background="#FFFFFF"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGNIN"
+            android:id="@+id/signin"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:id="@+id/register"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+    </LinearLayout>
+</LinearLayout>
